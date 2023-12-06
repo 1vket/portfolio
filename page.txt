@@ -1,5 +1,6 @@
 
 #About
+##松原伊吹
 広島県在住
 2003年2月生まれの20歳
 好きな食べ物はうなぎで
@@ -38,6 +39,7 @@ Network：Awsや自宅のraspiのポート解放などの経験はあるがセ�
 ## DJLA Deep Learning for GENERAL
 通称G検定
 2020年11月取得
+$$https://www.jdla.org/certificate/general/
 
 ## 基本情報技術者試験
 午後が95点だった．悔しい
@@ -47,19 +49,18 @@ Network：Awsや自宅のraspiのポート解放などの経験はあるがセ�
 # Works
 
 ## 自作キーボード
-基盤，配列などをcadで設計しpicマイコンでキーの対応付けを書き込み作成した．
-予算がなかった為天板なしで作成し，打ち心地が悪かったため今はHHKBを使っている．
+基盤，配列などをcadで設計しpicマイコンでキー対応をした．
+予算がなかった為天板なしで作成した為，打ち心地が悪く今はHHKBを使っている．
 @@images/keyboard.png
 
 ## My Artifacter
 pythonで作成した原神というゲームのキャラの育成度合いを可視化するdiscord botツール．
 オリジナルのArtifactGeneratorがサ終したので身内や所属コミュニティ内で使用する為作成．
-今もラズパイでひっそりと動いている．
+今もラズパイで動いている．
 
 ## Voice Stamp
 jsで作成したdiscordの通話中にコマンドを打つ事でSEを流せるbot.
 サウンドボードが実装されてからオンラインになることはなくなった．
-悲しい
 
 
 # Research
@@ -67,7 +68,7 @@ jsで作成したdiscordの通話中にコマンドを打つ事でSEを流せる
 ## 音素によるtoken圧縮手法の提案
 大学の合同研究発表会で発表した．
 日本語LLMのtokenが多くの容量を占めている問題を音素で解決できないかの提案を行った．
-今見るとすごい恥ずかしい
+$$https://drive.google.com/file/d/1tu2efHQOkQZVzNjWapU4sv7_SrBKWCWK/view?usp=sharing
 
 
 

@@ -27,6 +27,10 @@ a {
   color: var(--font-color);
 }
 
+p {
+    line-height: 1.7;
+}
+
 #toc {
   position: fixed;
   left: 0;
@@ -94,9 +98,21 @@ a {
   z-index: 2;
 }
 
-.card-link{
+.card-svg-wrap{
   position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: right;
   z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.card-link{
+  z-index: 2;
+  margin-right: 4%; 
+  margin-bottom: 2%; 
 }
 
 .contact-links{
