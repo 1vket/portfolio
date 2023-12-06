@@ -57,8 +57,8 @@ $$https://www.jdla.org/certificate/general/
 pythonで作成した原神というゲームのキャラの育成度合いを可視化するdiscord botツール．
 オリジナルのArtifactGeneratorがサ終したので身内や所属コミュニティ内で使用する為作成．
 今もラズパイで動いている．
-@@images/artifacter.png
 $$https://x.com/1vket/status/1635566231133773824?s=20
+@@images/artifacter.png
 
 ## Voice Stamp
 jsで作成したdiscordの通話中にコマンドを打つ事でSEを流せるbot.
