@@ -1,4 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+:root{
+    --main-color: white;
+    --accent-color: #FF8CF4;
+    --font-color: #545454;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: 'Noto Serif JP', sans-serif;
+  color: var(--font-color);
+}
 
 h1 {
   font-size: 40px;
+  border-bottom: 2px solid var(--font-color);
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+a {
+  color: var(--font-color);
+}
+
+#toc {
+  position: fixed;
+  left: 0;
+  top: 30%;
+  transform: translateY(-50%);
+  background-color: none;
+  padding: 10px;
+}
+
+#toc a {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+#toc a.active {
+  color: var(--accent-color);
+}
+
+.top-image-wrap{
+  width: 100%;
+  text-align: center;
+  margin: 15% 0;
+}
+
+.top-image{
+  width: 85%;
+}
+
+.sections {
+  margin: 0 auto;
+  width: 65%;
+}
+
+
+.card {
+  margin: 15px 10%;
+  padding: 0;
+  border: 2px solid var(--font-color);
+  position: relative;
+}
+
+.card-h2{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.content{
+  padding-left: 40px;
+  width: 70%;
+}
+
+.card-img-wrap{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  z-index: -1;
+}
+
+
+.card-img{
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.card-link{
+  position: absolute;
+  z-index: 1;
+}
+
+.contact-links{
+  padding-left: 10%;
+  width: 70%;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width:767px) {
+  nav {
+    display: none;
+  }
+
+  .card-img {
+    display: none;
+  }
+
+  .sections {
+    width: 90%;
+  }
 }
