@@ -139,6 +139,10 @@ p {
     font-size: 15px;
   }
 
+  .top-image{
+    width: 100%;
+  }
+
   .contact-links{
     font-size: 15px;
   }
@@ -149,11 +153,11 @@ p {
   }
 
   .sections {
-    width: 90%;
+    width: 95%;
   }
 
   .content {
     padding-left: 20px;
-    width: 70%;
+    width: 80%;
   }
 }
