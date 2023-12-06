@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 a {
@@ -127,11 +127,32 @@ p {
     display: none;
   }
 
+  h1 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  .p {
+    font-size: 15px;
+  }
+
+  .contact-links{
+    font-size: 15px;
+  }
+
+
   .card-img {
     display: none;
   }
 
   .sections {
+    width: 90%;
+  }
+
+  .content {
     width: 90%;
   }
 }
