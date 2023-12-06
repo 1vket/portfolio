@@ -86,6 +86,7 @@ function loadSections() {
 
                 refElement = document.createElement('a');
                 refElement.href = ref;
+                refElement.target = "_blank";
                 refElement.classList.add('card-link');
                 const svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
                 svgElement.setAttribute("xmlns", "http://www.w3.org/2000/svg");
