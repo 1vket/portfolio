@@ -153,6 +153,7 @@ p {
   }
 
   .content {
-    width: 90%;
+    padding-left: 20px;
+    width: 70%;
   }
 }
