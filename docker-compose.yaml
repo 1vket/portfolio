@@ -3,8 +3,17 @@ services:
   portfolio:
     build: .
     ports:
-      - "5001:5000"
+      - "5101:5101"
     volumes:
       - .:/app
     environment:
       - FLASK_ENV=development
+    networks:
+      - app_network
+
+
+networks:
+  app_network:
+    external: true
+
+
