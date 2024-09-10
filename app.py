@@ -10,7 +10,7 @@ app = Flask(
 def index():
     return render_template('index.html')
 
-@app.route('/<path:filename>')
+@app.route('/portfolio/<path:filename>')
 def disc(filename):
     try:
         return render_template(f'{filename}.html')

@@ -56,6 +56,7 @@ $$https://www.jdla.org/certificate/general/
 言語学習フラッシュカードアプリ
 ChatGPT APIを活用しこれまでのフラッシュカードアプリの使いにくさを改善した痒い所に手が届くアプリ．
 flutterとflaskで作成した
+$$https://matsubara.tech/portfolio/langdict
 
 ## 自作キーボード
 基盤，配列などをcadで設計しpicマイコンでキー対応をした．
