@@ -10,6 +10,17 @@ app = Flask(
 def index():
     return render_template('index.html')
 
+@app.route('/<path:filename>')
+def disc(filename):
+    try:
+        return render_template(f'{filename}.html')
+    except:
+        return render_template('404.html'), 404
+
+@app.errorhandler(404)
+def not_found(e):
+    return render_template('404.html'), 404
+
 @app.route('/get_sections/<path:filename>')
 def get_sections(filename):
     with open(f'app/page/{filename}', 'r', encoding='utf-8') as file:
